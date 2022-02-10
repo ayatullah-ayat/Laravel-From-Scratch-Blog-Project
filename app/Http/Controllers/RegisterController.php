@@ -19,6 +19,8 @@ class RegisterController extends Controller
             'email' => 'required|email|max:255|unique:users,email',
             'password' => 'required|min:7|max:255',
         ]);
+        // dd($attributes);
+        // $attributes['password'] = bcrypt(request()->input('password'));
 
         auth()->login(User::create($attributes));
 

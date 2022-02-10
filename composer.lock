@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "5569cc9f833bb5e99808509124a7ab2f",
+    "content-hash": "aec7a6e95de4163b86456ac0008bfddb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1451,24 +1451,24 @@
         },
         {
             "name": "mailchimp/marketing",
-            "version": "3.0.53",
+            "version": "3.0.74",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mailchimp/mailchimp-marketing-php.git",
-                "reference": "28b4f466845f156fc89093b83fed21816b976d81"
+                "reference": "f9d5f31d1a98262b8cb81020d3ddeac6d9a4a31e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mailchimp/mailchimp-marketing-php/zipball/28b4f466845f156fc89093b83fed21816b976d81",
-                "reference": "28b4f466845f156fc89093b83fed21816b976d81",
+                "url": "https://api.github.com/repos/mailchimp/mailchimp-marketing-php/zipball/f9d5f31d1a98262b8cb81020d3ddeac6d9a4a31e",
+                "reference": "f9d5f31d1a98262b8cb81020d3ddeac6d9a4a31e",
                 "shasum": ""
             },
             "require": {
                 "ext-curl": "*",
                 "ext-json": "*",
                 "ext-mbstring": "*",
-                "guzzlehttp/guzzle": "^7.2",
-                "guzzlehttp/psr7": "<2.0",
+                "guzzlehttp/guzzle": "^6.4 || ^7.2",
+                "guzzlehttp/psr7": "^1.7 || ^2.0",
                 "php": ">=7.2"
             },
             "require-dev": {
@@ -1500,9 +1500,9 @@
                 "swagger"
             ],
             "support": {
-                "source": "https://github.com/mailchimp/mailchimp-marketing-php/tree/v3.0.53"
+                "source": "https://github.com/mailchimp/mailchimp-marketing-php/tree/v3.0.74"
             },
-            "time": "2021-07-02T13:40:54+00:00"
+            "time": "2022-01-24T18:59:15+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -7612,8 +7612,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4|^8.0"
+        "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
