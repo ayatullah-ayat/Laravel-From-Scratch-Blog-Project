@@ -30,6 +30,22 @@
                                                 <button class="text-xs text-gray-400">Delete</button>
                                             </form>
                                         </td>
+
+                                        <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                            @if ($post->status == 'draft')
+                                                <form action="POST" action="/admin/posts/status/{{ $post->id }}">
+                                                    @csrf
+                                                    @method('PUT')
+                                                    <button type="submit" class="text-xs text-green-500">Publish</button>
+                                                </form>
+                                            @else
+                                                <form action="POST" action="/admin/posts/status/{{ $post->id }}">
+                                                    @csrf
+                                                    @method('PUT')
+                                                    <button type="submit" class="text-xs text-green-500">Publish</button>
+                                                </form>
+                                            @endif
+                                        </td>
                                     </tr>
                                 @endforeach
                             </tbody>

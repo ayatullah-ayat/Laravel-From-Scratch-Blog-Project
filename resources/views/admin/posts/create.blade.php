@@ -24,7 +24,7 @@
                 <x-form.error name="category"/>
             </x-form.field>
 
-            <x-form.button>Publish</x-form.button>
+            <x-form.button>Save</x-form.button>
         </form>
     </x-setting>
 </x-layout>
